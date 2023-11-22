@@ -1,3 +1,4 @@
+import random
 #menu function
 def menu():
     menu_choice = int(input('''~~~~~~~~~~~~~~~~~~~~
@@ -19,6 +20,10 @@ Please select an option: '''))
 
     if menu_choice == 2:
         name = input("Please enter your player name: ")
+        first_choice = input(name, "must complete some work. Will you do work, or scout out spiders? Yes, or No: ")
+        if first_choice == "Yes":
+
+
         
 
 menu()
